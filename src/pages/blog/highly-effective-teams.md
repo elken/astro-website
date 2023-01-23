@@ -3,7 +3,7 @@ draft: true
 token: '1234'
 author: 'joe'
 title: 'Highly-effective Teams'
-description: 'The common traits of teams that work fast and build great things.'
+description: 'The common traits of teams that work fast and build impressive things.'
 category: 'analysis'
 layout: '../../layouts/BlogPost.astro'
 publishedDate: '16 Jan 2023'
@@ -14,11 +14,7 @@ heroImage: 'effective-teams.jpg'
 
 At JUXT we work with many teams and businesses at different stages on the software journey. Sometimes small startups, with a vision but not a single line of code yet written, sometimes global businesses with thousands of employees and a vast and complex existing software estate. We're often tasked with reviewing existing systems and processes. It means we see the results of both successful and failed software strategies across many different businesses and sectors and it gives us a unique view on how things succeed (or fail) most often.
 
-//Many companies with success outside the world of software realise too late that they have _become_ software companies. They consider their expertise in accounting, electronics, law, HR, etc to be the important asset, and software to be incidental. They don't think about technical strategy, don't give the engineering function any status within the organisation, and don't appoint a CTO. Early attempts to deliver good, high-quality software soon demonstrate how easy it is to fail, and how important it is to execute the software part of the business just as seriously and well as the other parts.
-
-There's no playbook that works in all cases, but over time we've seen the characteristics that are common to highly-effective and productive teams. Let's call out some of those key traits and build a good starting recipe for a highly-effective team.
-
-## A recipe for success
+There's no playbook for guaranteed success, but over time we've seen the characteristics that are common to highly-effective and productive teams. Let's call out some of those key traits and build a good starting recipe for a highly-effective team.
 
 **1. Ruthless prioritisation**
 
@@ -51,6 +47,8 @@ Processes that include artificial deadlines, and seek to invalidate work done to
 **7. Autonomy for engineers**
 
 All individuals within an engineering team should be encouraged to bring their own experience, ingenuity, and judgement, to the tasks they complete. Ways of working, where possible, should be left to the individual. This naturally also means that teams must avoid defining roles too rigidly. Engineers should be free to choose practices that are appropriate to the task at hand and we should be wary of the one-size-fits-all mindset.
+
+This doesn't mean chaos, and highly effective engineering organisations will create a strong common culture that often results in a lot of alignment on technical choices (and approaches) across individuals and teams.
 
 ## The Model Team
 

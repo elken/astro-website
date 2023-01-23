@@ -24,9 +24,9 @@ Engineers often look locally at how time is wasted. They devise local workflows 
 
 Lean Software Development, the highly influential application of Lean manufacturing principles to the development of IT systems, has a lot to say about waste. After all, Lean is fundamentally an attempt to find ways to identify and root out waste, maximising efficiency and therefore delivery of value. Lean defines three categories of waste, _mura_ (unevenness, non-uniformity, irregularity), _muri_ (overburden, overstress, unreasonableness, unrealistic expectations), and _muda_ (processes that don't add value). In Lean Software Development, muda is divided into The Seven Wastes of Software Development:
 
-1. **Partially done work.** The inventory of effort spent to analyse and develop features that have not yet brought value to the customer.
+1. **Partially done work.** The inventory of effort spent to analyse and develop features that have not yet shipped.
 2. **Extra processes** Process, sometimes long-entrenched, that is beyond what's needed to deliver.
-3. **Extra features.** Features (analysed, developed, deployed) that are simply surplus to requirements and add no value to the customer. Have a nasty tendency to become obsolete before being used.
+3. **Extra features.** Features (analysed, developed, deployed) that are simply surplus to requirements and add no value to the customer. These have a nasty tendency to become obsolete before being used.
 4. **Task switching.** Including interruptions, lack of focus on one goal, and delays to delivery caused by making small amounts of progress on a large number of tasks, rather than a large amount of progress on a single task.
 5. **Waiting.** Delays caused by waiting for things to happen, or required resources to be available. Most problematic when working in a fast-changing environment since waiting can ultimately lead to work in progress becoming obsolete.
 6. **Motion.** Originally referring to unnecessary movements made during production, caused by poor layout or poor allocation of parts, _Motion_ as applied to Lean Software Development is all the travel an engineer and our software artifacts undergo. How far does an engineer need to travel to answer a question? How many systems must artifacts pass through to get to production? How much unnecessary busy work or friction applies during development? How far must engineers roam around a code base, or between repositories, or between teams, to make a change? Complexity increases motion.
@@ -74,17 +74,19 @@ We can use Lean methods to find and eliminate waste in execution, but what techn
 
 There will never be hard and fast rules for setting a perfect strategy, but we see the best results from engineering organisations that follow a few simple rules:
 
-**1. Focus on customer value.** An engineering team should work daily with a product owner or on-site customer. This might be someone highly technical, but the key is that all major initiatives are anchored in delivering value to users. Avoid initiatives that involve large amounts of engineering time but are deemed 'too technical' to be steered by the voice of the customer. When working in a software business, those steering the product should have sufficient technical understanding to engage with technical challenges, at the very least to recognise, justify and steer even the most technical change.
+**1. Remember the bottom line.** The most effective teams have a clear view of how their work contributes to the success of the business. Make sure the key metrics, that relate to value to your customer, and reward for your business, are are at the forefront of your mind when assessing big-ticket work.
 
-**2. Ruthless prioritisation.** No matter how large and secure the organisation becomes, teams should always look to prioritise, often ruthlessly, to focus on the most important features. This means discussing priorities every day to validate the path.
+An engineering team should work daily with a product owner or on-site customer. This might be someone highly technical, but the key is that all major initiatives are anchored in delivering value to users. Initiatives that involve large amounts of engineering time but are deemed 'too technical' to be steered by the voice of the customer or the value they return, should be viewed with suspicion. When working in a software business, those steering the product should have sufficient technical understanding to engage with technical challenges and justify time spent against the bottom line.
 
-**3. Working iteratively.** Eliminating waste caused by bad direction means validating direction, and finding ways to deliver incrementally and seek continuous feedback is the best way to do this. Too often, teams become locked in long, wasteful cycles with no feedback or chance to change course.
+**2. Prioritise ruthlessly.** No matter how large and secure the organisation becomes, teams should always look to prioritise, often ruthlessly, to focus on the most important features. This means discussing priorities every day to validate the path.
 
-**4. Small teams.** Smaller teams benefit from lower communication overhead, clearer focus, higher alignment, and greater accountability. We see empirically that the most effective teams we build are small. The characteristics of small teams are key to creating surprising productivity.
+**3. Work iteratively.** Eliminating waste caused by bad direction means validating direction, and finding ways to deliver incrementally and seek continuous feedback is the best way to do this. Too often, teams become locked in long, wasteful tracks with no feedback or chance to change course.
 
-**5. Clear ownership.** Teams should be associated clearly with a domain area they can own. This means minimal dependence on other teams, and a mandate to solve the 'mission' that relates to their domain however they see fit.
+**4. Stay small.** Smaller teams benefit from lower communication overhead, clearer focus, higher alignment, and greater accountability. We see empirically that the most effective teams we build are small. The characteristics of small teams are key to creating surprising productivity.
 
-**6. Championing existing systems.** Too often, existing systems are undervalued, and grand plans to resolve frustrations with the architecture form too easily. Complex software systems remain difficult to change. Avoid underestimating the cost of change and make sure that major technical improvement works are undertaken with clear business benefits in mind.
+**5. Clear ownership.** Teams should be associated clearly with a domain area they can own. This means minimal dependence on other teams, and a mandate to undertake the 'mission' that relates to their domain however they see fit.
+
+**6. Champion existing systems.** Too often, existing systems are undervalued, and grand plans to resolve frustrations with the architecture form too easily. Complex software systems remain difficult to change. Avoid underestimating the cost of change and make sure that major technical improvement works are undertaken with clear business benefits in mind.
 
 Choose carefully when to take on architectural improvement work. If you're still hunting for product-market fit then avoid embarking on long periods of system refactoring. Above all, make sure there is consensus across key engineers about how to change your systems, and steer clear of vague programmes of improvement work with an unclear payoff.
 
@@ -94,4 +96,4 @@ A common way to lose consensus is to fail to retain key technical staff - those 
 
 ## Strategy first
 
-When it comes to waste, it's easy to focus on execution, and work hard to optimise the ways we work to eliminate inefficiencies. However, if we're dedicated to truly doing more with less, and cutting out the biggest wastes, we need to start by examining the strategy. Once all teams are working towards a credible and high-priority goal, only then can we eliminate waste by refining the execution.
+When it comes to waste, it's easy to focus on execution, and work hard to optimise the ways we work to eliminate inefficiencies. However, if we're dedicated to truly doing more with less, and cutting out the biggest wastes, we need to start by examining the strategy. Only once all teams are working towards a credible and high-priority goal, and validating their path against the bottom line, can we eliminate waste by refining the execution.
